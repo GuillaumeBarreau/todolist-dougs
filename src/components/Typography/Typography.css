@@ -1,0 +1,79 @@
+/* Typography */
+@font-face {
+  font-family: "lato";
+  src: local("lato"),
+    url(../_settings/fonts/Lato/Lato-Regular.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: "lato-bold";
+  src: local("bato-bold"),
+    url(../_settings/fonts/Lato/Lato-Bold.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: "lato-italic";
+  src: local("bato-italic"),
+    url(../_settings/fonts/Lato/Lato-Italic.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: "lato-black";
+  src: local("bato-black"),
+    url(../_settings/fonts/Lato/Lato-Black.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: "lato-light";
+  src: local("bato-light"),
+    url(../_settings/fonts/Lato/Lato-Light.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: "lato-thin";
+  src: local("bato-thin"),
+    url(../_settings/fonts/Lato/Lato-Thin.ttf) format("truetype");
+}
+
+.typography {
+  font-family: lato, Arial, serif;
+  margin: 1rem 0;
+  letter-spacing: 0.05rem;
+  color: var(--color-base-01);
+}
+
+.typography-bold {
+  font-family: lato-black, Arial, serif;
+}
+
+.typography-italic {
+  font-family: lato-italic, Arial, serif;
+}
+
+.typography-black {
+  font-family: lato-black, Arial, serif;
+}
+
+.typography-light {
+  font-family: lato-light, Arial, serif;
+}
+
+.typography-xsmall {
+  font-size: 0.75rem;
+}
+
+.typography-small {
+  font-size: 1.25rem;
+}
+
+.typography-medium {
+  font-size: 1.5rem;
+}
+
+.typography-large {
+  font-size: 2.375rem;
+}
+
+.typography-xlarge {
+  font-size: 3rem;
+}
