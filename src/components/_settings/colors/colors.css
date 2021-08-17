@@ -1,0 +1,9 @@
+:root {
+  --color-base-01: #3a3266;
+  --color-base-01--dark: #000000;
+  --color-base-01--light: #2e2e3b;
+
+  --color-base-02: #ced1d0;
+  --color-base-02--dark: #afafaf;
+  --color-base-02--light: #f1efef;
+}

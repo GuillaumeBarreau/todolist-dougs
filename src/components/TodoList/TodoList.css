@@ -1,0 +1,16 @@
+.todoList {
+  flex-direction: column;
+}
+
+.todoList > ul {
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+  margin: 0;
+}
+
+.todoList > div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}

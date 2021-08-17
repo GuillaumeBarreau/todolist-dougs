@@ -1,0 +1,24 @@
+.app {
+  max-width: 71.25rem;
+  margin: auto;
+}
+
+.app-button {
+  padding: 0;
+  cursor: pointer;
+  text-align: initial;
+  background: none;
+  border: none;
+  width: 100%;
+  padding: 0.5rem;
+  display: flex;
+  align-items: center;
+}
+
+.app-button > svg {
+  margin-right: 1.5rem;
+}
+
+.app-button:hover {
+  background: var(--color-base-02);
+}

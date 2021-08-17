@@ -1,0 +1,51 @@
+[
+  {
+    "id": 1629122695057,
+    "description": "Take kids to school",
+    "startTime": 1629187200,
+    "endTime": 1629189000,
+    "checked": false
+  },
+  {
+    "id": 1629122695745,
+    "description": "Process email",
+    "startTime": 1629189000,
+    "endTime": 1629192600,
+    "checked": false
+  },
+  {
+    "id": 1629122696193,
+    "description": "Daily Stand-up metting",
+    "startTime": 1629192600,
+    "endTime": 1629194400,
+    "checked": false
+  },
+  {
+    "id": 1629122696779,
+    "description": "Create new template",
+    "startTime": 1629194400,
+    "endTime": 1629200700,
+    "checked": false
+  },
+  {
+    "id": 1629122697169,
+    "description": "Lunch with Anna",
+    "startTime": 1629201600,
+    "endTime": 1629203400,
+    "checked": false
+  },
+  {
+    "id": 1629122697558,
+    "description": "Write the presentation deck",
+    "startTime": 1629205200,
+    "endTime": 1629213300,
+    "checked": false
+  },
+  {
+    "id": 1629122698075,
+    "description": "Call with David",
+    "startTime": 1629213300,
+    "endTime": 1629216000,
+    "checked": false
+  }
+]

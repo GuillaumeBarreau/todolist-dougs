@@ -1,0 +1,38 @@
+.todoItem {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+  cursor: pointer;
+  padding: 0.5rem;
+  border-radius: 0.25rem;
+}
+
+.todoItem:hover {
+  background: var(--color-base-02--light);
+}
+
+.todoItem-containt {
+  text-align: start;
+  display: flex;
+  align-items: center;
+}
+
+@media (max-width: 600px) {
+  .todoItem--screen {
+    display: none;
+  }
+}
+
+.todoItem-containt > span,
+.todoItem-containt > p,
+.todoItem-containt > svg {
+  margin-right: 1.25rem;
+}
+
+.todoItem-icon {
+  height: 1.25rem;
+  width: 1.25rem;
+  border: 0.125rem solid var(--color-base-02--dark);
+  border-radius: 40%;
+  background: white;
+}
